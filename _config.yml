@@ -14,13 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 一起为梦想而战
-description: > # this means to ignore newlines until "baseurl:"
-  Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
+description: >
 baseurl: "/matjek"
-url: "https://princejwg.github.io"
+url: "http://princejwg.github.io"
 permalink: /:year/:month/:day/:title
 repository: princejwg/matjek
 paginate: 5
+header-img:assets/res/user.gif
+catalog: true #导航目录,不要管他
+original: true #是否原创申明
+tags:
+  - 笔记
 
 # MatJek specific configurations
 github_profile: "https://github.com/princejwg"
