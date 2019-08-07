@@ -14,13 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 一起为梦想而战
+SEOTitle: 巨伟刚的博客 | princejwg Blog
 description: >
-baseurl: "/matjek"
+baseurl: "/princjwg.blog"
 url: "http://princejwg.github.io"
 permalink: /:year/:month/:day/:title
-repository: princejwg/matjek
+repository: princejwg/princjwg.blog
 paginate: 5
 header-img: assets/res/user.gif
+imgurl: "/princjwg.blog/assets/res"
+post-img: assets/img/user.gif
 catalog: true #导航目录,不要管他
 original: true #是否原创申明
 tags:
